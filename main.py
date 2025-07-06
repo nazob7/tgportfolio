@@ -3,8 +3,8 @@ import asyncio
 from random import randint
 import importlib
 import os
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 Token = os.getenv('BOT_TOKEN')
 
 channel = ''
