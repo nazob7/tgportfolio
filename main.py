@@ -5,7 +5,7 @@ import importlib
 import os
 # from dotenv import load_dotenv
 # load_dotenv()
-Token = os.getenv('BOT_TOKEN')
+Token = os.getenv("BOT_TOKEN")
 
 channel = ''
 bot = Bot(token=Token)
